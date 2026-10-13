@@ -71,21 +71,38 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="hero-kicker">Family-owned roofers in Hicksville, NY</p>
-          <h1 class="hero-title">A tight roof over Long Island for four decades.</h1>
-          <p class="hero-lede">Repairs, replacements and maintenance for homes and commercial buildings. Licensed, insured, and we leave your property cleaner than we found it.</p>
-          <div class="hero-ctas">
-            <a class="btn btn-copper btn-lg" href="#estimate">Get a free estimate</a>
-            <a class="btn btn-ghost btn-lg" href="tel:+15168244558">Call (516) 824-4558</a>
+          <div class="hero-main">
+            <p class="hero-kicker">
+              <span class="kicker-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 14l8-7 8 7"/></svg></span>
+              Family-owned roofers in Hicksville, NY
+            </p>
+            <h1 class="hero-title">A tight roof over Long Island for <span class="accent">four decades.</span></h1>
+            <p class="hero-lede">Repairs, replacements and maintenance for homes and commercial buildings. Licensed, insured, and we leave your property cleaner than we found it.</p>
+            <div class="hero-ctas">
+              <a class="btn btn-copper btn-lg btn-arrow" href="#estimate">Get a free estimate
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              <a class="btn btn-ghost btn-lg" href="tel:+15168244558">
+                <svg class="ico-fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+                Call (516) 824-4558</a>
+            </div>
           </div>
           <ul class="hero-proof">
-            <li><strong>85%</strong> of leaks stopped on the first visit</li>
-            <li><strong>Licensed &amp; insured</strong> for roofing work</li>
-            <li><strong>Insurance claims</strong> handled with you</li>
+            <li>
+              <span class="proof-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3c3 4.5 6 7.8 6 11a6 6 0 0 1-12 0c0-3.2 3-6.5 6-11z"/><path d="M9.5 15a2.5 2.5 0 0 0 2.5 2.5"/></svg></span>
+              <span><strong>85%</strong> of leaks stopped on the first visit</span>
+            </li>
+            <li>
+              <span class="proof-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5.5c0 4.3-2.9 7.9-7 9.5-4.1-1.6-7-5.2-7-9.5V6z"/><path d="M8.8 12.2l2.2 2.2 4.2-4.6"/></svg></span>
+              <span><strong>Licensed &amp; insured</strong> for roofing work</span>
+            </li>
+            <li>
+              <span class="proof-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h8.5L19 7.5V21H6z"/><path d="M14 3v5h5M9 12.5h7M9 16.5h5"/></svg></span>
+              <span><strong>Insurance claims</strong> handled with you</span>
+            </li>
           </ul>
         </div>
 
-        <div class="hero-visual" aria-hidden="false">
+        <div class="hero-visual">
           <figure class="gable">
             <img src="images/hero.jpg"
                  data-remote="https://www.trybloom.ai/img/955ac721-44ab-4e3b-8e7e-1ee137bb4b5c"
@@ -94,11 +111,18 @@
                  width="2048" height="1152" fetchpriority="high">
           </figure>
           <svg class="drip-edge" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-            <polyline points="-2,31 50,2 102,31" />
+            <polyline points="-2,104 50,0 102,104" />
           </svg>
-          <div class="hero-badge">
-            <span class="badge-num">40+</span>
-            <span class="badge-text">years roofing Hicksville &amp; Long Island</span>
+          <div class="hero-seal" role="img" aria-label="40+ years roofing Hicksville and Long Island">
+            <svg class="seal-ring" viewBox="0 0 120 120" aria-hidden="true">
+              <defs><path id="sealPath" d="M14 60a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs>
+              <text><textPath href="#sealPath" textLength="286" lengthAdjust="spacing">FAMILY-OWNED · HICKSVILLE · LONG ISLAND ·</textPath></text>
+            </svg>
+            <span class="seal-core" aria-hidden="true"><span class="seal-num">40+</span><span class="seal-label">years</span></span>
+          </div>
+          <div class="hero-chip">
+            <span class="chip-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.5 12.5l3.5 3.5 7.5-8"/></svg></span>
+            <span><strong>Every job quality-checked</strong> by a dedicated technician</span>
           </div>
         </div>
       </div>
@@ -385,10 +409,6 @@
             <li><span>Office</span>15 Midland Ave, Hicksville, NY 11801</li>
             <li><span>Instagram</span><a href="https://instagram.com/alltiteroofing" target="_blank" rel="noopener">@alltiteroofing</a></li>
           </ul>
-          <div class="map">
-            <iframe title="Map to All-Tite Roofing, 15 Midland Ave, Hicksville NY" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-              src="https://maps.google.com/maps?q=15%20Midland%20Ave%2C%20Hicksville%2C%20NY%2011801&z=14&output=embed"></iframe>
-          </div>
         </div>
 
         <form class="est-form" id="estForm" novalidate>

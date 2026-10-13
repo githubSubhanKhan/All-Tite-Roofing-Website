@@ -37,10 +37,12 @@ Until then, every `<img>` falls back to its online source automatically, so the 
 
 ## 2. What's on the page
 
-Gable-shaped hero with copper drip edge, services, 85% first-visit leak-fix proof,
-5-step process, differentiators, swipeable project gallery with lightbox,
-testimonials, FAQ accordion, 3-step estimate form with validation, map, sticky
-mobile call bar, LocalBusiness (RoofingContractor) schema and real meta description.
+Gable-shaped hero with copper drip edge, 40+ years seal and quality-check card
+(on mobile it becomes a full-bleed gable cover with the copy on slate), services,
+85% first-visit leak-fix proof, 5-step process, differentiators, swipeable project
+gallery with lightbox, testimonials, FAQ accordion, 3-step estimate form with
+validation, sticky mobile call bar, LocalBusiness (RoofingContractor) schema and
+real meta description.
 
 ## 3. Before going live
 
